@@ -29,7 +29,6 @@ const HelloWord = (): Component => {
       }
 
       context.data.attrs = { ...context.data.attrs, ['data-test']: 'nomeRoger' }
-      context.props.props
       return h('button', context.data, [h('h1', context.props.author)])
     }
   }
