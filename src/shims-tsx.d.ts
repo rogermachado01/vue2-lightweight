@@ -1,4 +1,5 @@
 import Vue, { VNode } from 'vue'
+import Message from './model/Mensagem';
 
 declare global {
   namespace JSX {
